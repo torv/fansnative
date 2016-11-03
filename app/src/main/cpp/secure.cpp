@@ -3,7 +3,7 @@
 
 extern "C"
 jstring
-Java_com_torv_adam_fansnavite_Protect_stringFromJNI(
+Java_com_torv_adam_fansnavite_Secure_stringFromJNI(
         JNIEnv* env,
         jobject /* this */) {
     std::string hello = "Hello from C++";
