@@ -12,7 +12,7 @@ public class Secure {
      */
     public native String stringFromJNI();
 
-    // Used to load the 'native-lib' library on application startup.
+    // Used to load the so library on application startup.
     static {
         System.loadLibrary("Secure");
     }
